@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.xenonota.xml;
+package com.pornota.xml;
 
 import android.os.Environment;
 
-import com.xenonota.utils.OTAUtils;
+import com.pornota.utils.OTAUtils;
 
 import java.io.BufferedReader;
 import java.io.File;

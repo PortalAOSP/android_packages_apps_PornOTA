@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xenonota.tasks;
+package com.pornota.tasks;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -28,15 +28,15 @@ import android.os.Handler;
 import android.os.Message;
 import android.support.v4.app.NotificationCompat;
 
-import com.xenonota.MainActivity;
-import com.xenonota.R;
-import com.xenonota.configs.AppConfig;
-import com.xenonota.configs.OTAConfig;
-import com.xenonota.configs.OTAVersion;
-import com.xenonota.dialogs.WaitDialogHandler;
-import com.xenonota.utils.OTAUtils;
-import com.xenonota.xml.OTADevice;
-import com.xenonota.xml.OTAParser;
+import com.pornota.MainActivity;
+import com.pornota.R;
+import com.pornota.configs.AppConfig;
+import com.pornota.configs.OTAConfig;
+import com.pornota.configs.OTAVersion;
+import com.pornota.dialogs.WaitDialogHandler;
+import com.pornota.utils.OTAUtils;
+import com.pornota.xml.OTADevice;
+import com.pornota.xml.OTAParser;
 
 import org.xmlpull.v1.XmlPullParserException;
 
@@ -83,25 +83,25 @@ public class CheckUpdateTask extends AsyncTask<Void, Void, OTADevice> {
 
         showWaitDialog();
 
-        OTADevice official = null;
-        OTADevice experimental = null;
+        OTADevice professional = null;
+        OTADevice teen = null;
         OTADevice final_ota = null;
         String deviceName = OTAUtils.getDeviceName(callBack.getContext());
         OTAUtils.logInfo("deviceName: " + deviceName);
         if (!deviceName.isEmpty()) {
             String preferredType = AppConfig.getPreferredType(callBack.getContext());
-            if("Official".equals(preferredType) || "Latest".equals(preferredType)) official = fetchURL(OTAConfig.getInstance(callBack.getContext()).getOfficialOtaUrl(),deviceName);
-            if("Experimental".equals(preferredType) || "Latest".equals(preferredType)) experimental = fetchURL(OTAConfig.getInstance(callBack.getContext()).getExperimentalOtaUrl(),deviceName);
-            if(official==null && experimental!=null){
-                final_ota = experimental;
-            }else if(official!=null && experimental==null){
-                final_ota = official;
-            }else if(official!=null){
-                boolean result = OTAVersion.checkVersions(official.getLatestVersion(), experimental.getLatestVersion(), official.getBuildTime(), experimental.getBuildTime(), callBack.getContext());
+            if("Professional".equals(preferredType) || "Latest".equals(preferredType)) professional = fetchURL(OTAConfig.getInstance(callBack.getContext()).getProfessionalOtaUrl(),deviceName);
+            if("Teen".equals(preferredType) || "Latest".equals(preferredType)) teen = fetchURL(OTAConfig.getInstance(callBack.getContext()).getTeenOtaUrl(),deviceName);
+            if(professional==null && teen!=null){
+                final_ota = teen;
+            }else if(professional!=null && teen==null){
+                final_ota = professional;
+            }else if(professional!=null){
+                boolean result = OTAVersion.checkVersions(professional.getLatestVersion(), teen.getLatestVersion(), professional.getBuildTime(), teen.getBuildTime(), callBack.getContext());
                 if(result){
-                    final_ota = official;
+                    final_ota = professional;
                 }else{
-                    final_ota = experimental;
+                    final_ota = teen;
                 }
             }else{final_ota = null;}
         }
@@ -190,7 +190,7 @@ public class CheckUpdateTask extends AsyncTask<Void, Void, OTADevice> {
             mChannel.setDescription(description);
             notificationManager.createNotificationChannel(mChannel);
 
-            NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context.getApplicationContext(), "XenonOTA")
+            NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context.getApplicationContext(), "PornOTA")
                     .setSmallIcon(R.drawable.ic_notification_xenonota)
                     .setContentTitle(context.getString(R.string.notification_title))
                     .setContentText(context.getString(R.string.notification_message))

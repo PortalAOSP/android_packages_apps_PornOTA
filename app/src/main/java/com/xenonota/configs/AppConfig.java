@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xenonota.configs;
+package com.pornota.configs;
 
 import android.app.AlarmManager;
 import android.app.job.JobInfo;
@@ -24,9 +24,9 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-import com.xenonota.R;
-import com.xenonota.tasks.OTAService;
-import com.xenonota.utils.OTAUtils;
+import com.pornota.R;
+import com.pornota.tasks.OTAService;
+import com.pornota.utils.OTAUtils;
 
 public final class AppConfig {
 
@@ -66,8 +66,8 @@ public final class AppConfig {
 
     public static String getPreferredType(Context context) {
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(context);
-        String default_value = OTAUtils.getProp("ro.xenonhd.type");
-        if ( !("Official".equals(default_value)) && !("Experimental").equals(default_value) ) default_value="Official";
+        String default_value = OTAUtils.getProp("ro.paosp.type");
+        if ( !("Professional".equals(default_value)) && !("Teen").equals(default_value) ) default_value="Professional";
         return sharedPreferences.getString(PREFERRED_TYPE, default_value);
     }
 

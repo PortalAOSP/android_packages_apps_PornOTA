@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2018 XenonHD
+<!-- Copyright (C) 2018 PornAOSP
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -19,7 +19,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.xenonota.MainActivity">
+    tools:context="com.pornota.MainActivity">
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewpager"

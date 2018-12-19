@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018 XenonHD
+ * Copyright (C) 2018 PornAOSP
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *
- * Created by Devil7DK for XenonHD
+ * Created by Devil7DK for PornAOSP
  *
  */
 
-package com.xenonota.configs;
+package com.pornota.configs;
 
 import android.content.Context;
 import android.preference.PreferenceManager;

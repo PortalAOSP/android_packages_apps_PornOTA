@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xenonota.fragments;
+package com.pornota.fragments;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -48,16 +48,16 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.xenonota.R;
-import com.xenonota.configs.AppConfig;
-import com.xenonota.configs.MagiskConfig;
-import com.xenonota.dialogs.Downloader;
-import com.xenonota.dialogs.WaitDialogFragment;
-import com.xenonota.tasks.CheckUpdateTask;
-import com.xenonota.tasks.InitiateFlashTask;
-import com.xenonota.tasks.MagiskDownloadTask;
-import com.xenonota.utils.OTAUtils;
-import com.xenonota.xml.OTADevice;
+import com.pornota.R;
+import com.pornota.configs.AppConfig;
+import com.pornota.configs.MagiskConfig;
+import com.pornota.dialogs.Downloader;
+import com.pornota.dialogs.WaitDialogFragment;
+import com.pornota.tasks.CheckUpdateTask;
+import com.pornota.tasks.InitiateFlashTask;
+import com.pornota.tasks.MagiskDownloadTask;
+import com.pornota.utils.OTAUtils;
+import com.pornota.xml.OTADevice;
 
 import java.io.File;
 
@@ -207,7 +207,7 @@ public class Fragment_OTA extends Fragment implements WaitDialogFragment.OTADial
             }
         });
 
-        final String donateURL = OTAUtils.getProp("ro.xenonhd.donate");
+        final String donateURL = OTAUtils.getProp("ro.paosp.donate");
         lv_maintainer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -396,11 +396,11 @@ public class Fragment_OTA extends Fragment implements WaitDialogFragment.OTADial
     }
 
     private void getROMDetails(){
-        currentVersion.setText(OTAUtils.getProp("ro.xenonhd.version"));
+        currentVersion.setText(OTAUtils.getProp("ro.paosp.version"));
         rom_version.setText(getString(R.string.xenonhd_version, Build.VERSION.RELEASE));
-        build_type.setText(OTAUtils.getProp("ro.xenonhd.type"));
-        device_name.setText(getString(R.string.device_name, OTAUtils.getProp("ro.product.model"), OTAUtils.getProp("ro.xenonhd.device")));
-        String maintainer_name=OTAUtils.getProp("ro.xenonhd.maintainer");
+        build_type.setText(OTAUtils.getProp("ro.paosp.type"));
+        device_name.setText(getString(R.string.device_name, OTAUtils.getProp("ro.product.model"), OTAUtils.getProp("ro.paosp.device")));
+        String maintainer_name=OTAUtils.getProp("ro.paosp.maintainer");
         if (maintainer_name != null && !maintainer_name.trim().isEmpty()) {
             maintainer.setText(maintainer_name);
         } else {

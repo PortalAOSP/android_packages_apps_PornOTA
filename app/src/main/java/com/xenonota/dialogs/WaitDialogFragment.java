@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xenonota.dialogs;
+package com.pornota.dialogs;
 
 import android.app.Dialog;
 import android.support.annotation.NonNull;
@@ -27,7 +27,7 @@ import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.xenonota.R;
+import com.pornota.R;
 
 public class WaitDialogFragment extends DialogFragment {
 

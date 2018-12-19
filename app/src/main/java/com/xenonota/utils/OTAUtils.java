@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xenonota.utils;
+package com.pornota.utils;
 
 import android.app.Activity;
 import android.content.Context;
@@ -23,8 +23,8 @@ import android.support.annotation.NonNull;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.xenonota.R;
-import com.xenonota.configs.OTAConfig;
+import com.pornota.R;
+import com.pornota.configs.OTAConfig;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -37,7 +37,7 @@ import java.text.DecimalFormat;
 
 public final class OTAUtils {
 
-    private static final String TAG = "XenonOTA";
+    private static final String TAG = "PornOTA";
     private static final boolean DEBUG = true;
 
     private OTAUtils() {

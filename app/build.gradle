@@ -21,7 +21,7 @@ android {
     buildToolsVersion '28.0.3'
 
     defaultConfig {
-        applicationId "com.xenonota"
+        applicationId "com.pornota"
         minSdkVersion 28
         targetSdkVersion 28
         versionCode 9

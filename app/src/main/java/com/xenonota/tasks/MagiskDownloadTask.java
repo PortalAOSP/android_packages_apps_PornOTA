@@ -1,4 +1,4 @@
-package com.xenonota.tasks;
+package com.pornota.tasks;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
@@ -7,11 +7,11 @@ import android.os.AsyncTask;
 import android.os.Handler;
 import android.os.Message;
 
-import com.xenonota.R;
-import com.xenonota.configs.MagiskConfig;
-import com.xenonota.dialogs.WaitDialogHandler;
-import com.xenonota.fragments.Fragment_OTA;
-import com.xenonota.utils.OTAUtils;
+import com.pornota.R;
+import com.pornota.configs.MagiskConfig;
+import com.pornota.dialogs.WaitDialogHandler;
+import com.pornota.fragments.Fragment_OTA;
+import com.pornota.utils.OTAUtils;
 
 import org.json.JSONObject;
 

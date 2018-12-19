@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xenonota.dialogs;
+package com.pornota.dialogs;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;

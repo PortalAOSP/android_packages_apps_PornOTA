@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2018 XenonHD
+<!-- Copyright (C) 2018 PornAOSP
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@
     android:layout_height="match_parent"
     android:orientation="horizontal"
     android:scrollbars="none"
-    tools:context="com.xenonota.fragments.Fragment_OTA">
+    tools:context="com.pornota.fragments.Fragment_OTA">
 
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/scrollView_Main"
@@ -44,7 +44,7 @@
             android:paddingTop="@dimen/activity_horizontal_margin"
             android:paddingRight="@dimen/activity_horizontal_margin"
             android:scrollbars="none"
-            tools:context="com.xenonota.fragments.Fragment_OTA">
+            tools:context="com.pornota.fragments.Fragment_OTA">
 
             <android.support.v7.widget.CardView
                 android:id="@+id/cv_ota_state"

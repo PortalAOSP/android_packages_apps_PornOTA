@@ -1,4 +1,4 @@
-XenonOTA
+PornOTA
 -------
 An OTA updater app based on [fusionjack/slimota](https://github.com/fusionjack/slimota) with:
 * Android Settings look and feel
@@ -23,29 +23,29 @@ How to use
 * Copy the [ota_conf template](https://github.com/TeamHorizon/android_packages_apps_XenonOTA/blob/p/examples/ota_conf) to app/src/main/assets folder
   * If you are buiding this app as part of the ROM, you need to copy ota_conf into the android out folder.
   * The Android.mk will pick it up and copy it to app/src/main/assets folder automatically.
-* Replace the "ota_experimental" or "ota_official" with your OTA xml hot link
-* Define how XenonOTA should know about the "version". The version must be parseable to a date.
-  * Usually, the version is a part of a build name. For example, the 171003 in the XenonHD-171003-Experimental.
-* Adjust the OTA configuration according to your build name on how should XenonOTA parse the version
-  * Find a key in build.prop that represents the XenonHD-171003-Experimental and set it in the "version_name"
+* Replace the "ota_teen" or "ota_professional" with your OTA xml hot link
+* Define how PornOTA should know about the "version". The version must be parseable to a date.
+  * Usually, the version is a part of a build name. For example, the 171003 in the PornAOSP-171003-Teen.
+* Adjust the OTA configuration according to your build name on how should PornOTA parse the version
+  * Find a key in build.prop that represents the PornAOSP-171003-Teen and set it in the "version_name"
   * Set the delimiter in "version_delimiter" to "-"
   * Set the date format in "version_format" to "yyMMdd"
   * Set the position in "version_position" to "1" (zero based)
 * Find a key in build.prop that represents your device name and set it in the "device_name"
-  * XenonOTA will search this device name in the OTA xml file
+  * PornOTA will search this device name in the OTA xml file
 
 How to build
 ------------
 * As part of the ROM
-  * In XenonHD, ota_conf and ota_device.xml are being generated and used automatically for each device during compilation process, so you don't have to worry about anything else than setting up OTA_TYPE to Experimental/Official (XenonOTA is not being included in Unofficial builds).
+  * In PornAOSP, ota_conf and ota_device.xml are being generated and used automatically for each device during compilation process, so you don't have to worry about anything else than setting up OTA_TYPE to Teen/Professional (PornOTA is not being included in Unprofessional builds).
   * Add this repo into your manifest  
-    `<project path="packages/apps/XenonOTA" name="TeamHorizon/android_packages_apps_XenonOTA" revision="p" />`
+    `<project path="packages/apps/PornOTA" name="TeamHorizon/android_packages_apps_XenonOTA" revision="p" />`
   * Include this app in the build process  
-    `PRODUCT_PACKAGES += XenonOTA`
+    `PRODUCT_PACKAGES += PornOTA`
   * [Generate ota_conf](https://raw.githubusercontent.com/TeamHorizon/vendor_xenonhd/p/config/ota.mk)
   * [Generate ota_device.xml](https://github.com/TeamHorizon/vendor_xenonhd/blob/p/build/tools/ota) (started by [build/tasks/bacon.mk](https://github.com/TeamHorizon/vendor_xenonhd/blob/p/build/tasks/bacon.mk))
 * As a standalone app
-  * With Android.mk: `. build/envsetup.sh && breakfast device && make XenonOTA`
+  * With Android.mk: `. build/envsetup.sh && breakfast device && make PornOTA`
   * With Android Studio: Import this repo to your Android Studio and build it from there
   
 Credits

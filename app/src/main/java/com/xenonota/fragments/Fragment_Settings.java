@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xenonota.fragments;
+package com.pornota.fragments;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -25,11 +25,11 @@ import android.view.ViewGroup;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
-import com.xenonota.R;
-import com.xenonota.configs.AppConfig;
-import com.xenonota.configs.GappsConfig;
-import com.xenonota.configs.MagiskConfig;
-import com.xenonota.utils.OTAUtils;
+import com.pornota.R;
+import com.pornota.configs.AppConfig;
+import com.pornota.configs.GappsConfig;
+import com.pornota.configs.MagiskConfig;
+import com.pornota.utils.OTAUtils;
 
 public class Fragment_Settings extends Fragment {
 
@@ -108,12 +108,12 @@ public class Fragment_Settings extends Fragment {
                 PreferredType.check(R.id.rb_rom_latest);
                 break;
             }
-            case "Official":{
-                PreferredType.check(R.id.rb_rom_official);
+            case "Professional":{
+                PreferredType.check(R.id.rb_rom_professional);
                 break;
             }
-            case "Experimental":{
-                PreferredType.check(R.id.rb_rom_experimental);
+            case "Teen":{
+                PreferredType.check(R.id.rb_rom_teen);
                 break;
             }
         }
@@ -207,12 +207,12 @@ public class Fragment_Settings extends Fragment {
                         AppConfig.persistPreferredVersion("Latest",getContext().getApplicationContext());
                         break;
                     }
-                    case R.id.rb_rom_official:{
-                        AppConfig.persistPreferredVersion("Official",getContext().getApplicationContext());
+                    case R.id.rb_rom_professional:{
+                        AppConfig.persistPreferredVersion("Professional",getContext().getApplicationContext());
                         break;
                     }
-                    case R.id.rb_rom_experimental:{
-                        AppConfig.persistPreferredVersion("Experimental",getContext().getApplicationContext());
+                    case R.id.rb_rom_teen:{
+                        AppConfig.persistPreferredVersion("Teen",getContext().getApplicationContext());
                         break;
                     }
                 }

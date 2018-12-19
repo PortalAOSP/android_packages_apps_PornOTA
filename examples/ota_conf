@@ -13,9 +13,9 @@
 # A version source can be a 'property key' from build.prop or a 'uname -r' command line
 # If a version is a number, leave the version_format empty. Otherwise, provide the date format
 #
-# Example with a property key 'ro.xenonhd.version' : Parse the date 170103 from 'XenonHD-171003-experimental'
+# Example with a property key 'ro.paosp.version' : Parse the date 170103 from 'PornAOSP-171003-teen'
 #
-# Version source: ro.xenonhd.version
+# Version source: ro.paosp.version
 # Version delimiter: -
 # Version position: 1 (zero based)
 # Version format: yyMMdd
@@ -29,11 +29,11 @@
 #
 # OTA_configuration
 #
-ota_experimental=https://mirrors.c0urier.net/android/teamhorizon/P/OTA/ota_huashan_experimental.xml
-ota_official=https://mirrors.c0urier.net/android/teamhorizon/P/OTA/ota_huashan_official.xml
-device_name=ro.xenonhd.device
+ota_teen=https://mirrors.c0urier.net/android/teamhorizon/P/OTA/ota_huashan_teen.xml
+ota_professional=https://mirrors.c0urier.net/android/teamhorizon/P/OTA/ota_huashan_professional.xml
+device_name=ro.paosp.device
 release_type=Pie
-version_source=ro.xenonhd.version
+version_source=ro.paosp.version
 version_delimiter=-
 version_position=1
 version_format=yyMMdd

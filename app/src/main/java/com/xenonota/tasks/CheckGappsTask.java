@@ -1,4 +1,4 @@
-package com.xenonota.tasks;
+package com.pornota.tasks;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
@@ -10,10 +10,10 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.xenonota.R;
-import com.xenonota.configs.DeviceConfig;
-import com.xenonota.configs.GappsConfig;
-import com.xenonota.fragments.Fragment_Gapps;
+import com.pornota.R;
+import com.pornota.configs.DeviceConfig;
+import com.pornota.configs.GappsConfig;
+import com.pornota.fragments.Fragment_Gapps;
 
 import org.json.JSONObject;
 

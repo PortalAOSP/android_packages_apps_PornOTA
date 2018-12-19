@@ -1,4 +1,4 @@
-package com.xenonota.configs;
+package com.pornota.configs;
 
 import android.content.Context;
 import android.preference.PreferenceManager;

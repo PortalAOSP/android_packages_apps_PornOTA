@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xenonota.dialogs;
+package com.pornota.dialogs;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -41,7 +41,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.xenonota.R;
+import com.pornota.R;
 
 import java.io.File;
 import java.io.FilenameFilter;

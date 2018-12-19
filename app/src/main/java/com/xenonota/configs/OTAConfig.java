@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.xenonota.configs;
+package com.pornota.configs;
 
 import android.content.Context;
 
-import com.xenonota.utils.OTAUtils;
+import com.pornota.utils.OTAUtils;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -30,8 +30,8 @@ public class OTAConfig extends Properties {
 
     private final static String FILENAME = "ota_conf";
 
-    private final static String OTA_OFFICIAL_URL = "ota_official";
-    private final static String OTA_EXPERIMENTAL_URL = "ota_experimental";
+    private final static String OTA_PROFESSIONAL_URL = "ota_professional";
+    private final static String OTA_TEEN_URL = "ota_teen";
 
     private final static String RELEASE_TYPE = "release_type";
 
@@ -61,11 +61,11 @@ public class OTAConfig extends Properties {
         return mInstance;
     }
 
-    public String getOfficialOtaUrl() {
-        return getProperty(OTAConfig.OTA_OFFICIAL_URL, "");
+    public String getProfessionalOtaUrl() {
+        return getProperty(OTAConfig.OTA_PROFESSIONAL_URL, "");
     }
-    public String getExperimentalOtaUrl() {
-        return getProperty(OTAConfig.OTA_EXPERIMENTAL_URL, "");
+    public String getTeenOtaUrl() {
+        return getProperty(OTAConfig.OTA_TEEN_URL, "");
     }
 
     public String getReleaseType() {

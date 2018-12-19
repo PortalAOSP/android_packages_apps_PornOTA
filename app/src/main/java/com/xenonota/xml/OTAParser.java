@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xenonota.xml;
+package com.pornota.xml;
 
 import android.util.Xml;
 

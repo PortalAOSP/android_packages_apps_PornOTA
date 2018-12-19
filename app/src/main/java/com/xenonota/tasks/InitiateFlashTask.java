@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xenonota.tasks;
+package com.pornota.tasks;
 
 import android.content.DialogInterface;
 import android.os.AsyncTask;
@@ -22,12 +22,12 @@ import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AlertDialog;
 
-import com.xenonota.R;
-import com.xenonota.configs.AppConfig;
-import com.xenonota.dialogs.WaitDialogHandler;
-import com.xenonota.fragments.Fragment_OTA;
-import com.xenonota.utils.ORSUtils;
-import com.xenonota.utils.OTAUtils;
+import com.pornota.R;
+import com.pornota.configs.AppConfig;
+import com.pornota.dialogs.WaitDialogHandler;
+import com.pornota.fragments.Fragment_OTA;
+import com.pornota.utils.ORSUtils;
+import com.pornota.utils.OTAUtils;
 
 import java.io.BufferedReader;
 import java.io.File;

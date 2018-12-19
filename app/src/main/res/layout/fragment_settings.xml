@@ -21,7 +21,7 @@
     android:layout_height="match_parent"
     android:orientation="horizontal"
     android:scrollbars="none"
-    tools:context="com.xenonota.fragments.Fragment_Settings">
+    tools:context="com.pornota.fragments.Fragment_Settings">
 
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/scrollView_Settings"
@@ -45,7 +45,7 @@
             android:paddingTop="@dimen/activity_horizontal_margin"
             android:paddingRight="@dimen/activity_horizontal_margin"
             android:scrollbars="none"
-            tools:context="com.xenonota.fragments.Fragment_OTA">
+            tools:context="com.pornota.fragments.Fragment_OTA">
 
             <android.support.v7.widget.CardView
                 android:id="@+id/cv_autocheck_interval"
@@ -174,18 +174,18 @@
                             android:text="@string/rom_latest" />
 
                         <RadioButton
-                            android:id="@+id/rb_rom_official"
+                            android:id="@+id/rb_rom_professional"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="@string/rom_official" />
+                            android:text="@string/rom_professional" />
 
                         <RadioButton
-                            android:id="@+id/rb_rom_experimental"
+                            android:id="@+id/rb_rom_teen"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="@string/rom_experimental" />
+                            android:text="@string/rom_teen" />
                     </RadioGroup>
 
 

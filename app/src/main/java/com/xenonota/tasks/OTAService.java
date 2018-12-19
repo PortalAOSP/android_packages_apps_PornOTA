@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.xenonota.tasks;
+package com.pornota.tasks;
 
 import android.app.job.JobParameters;
 import android.app.job.JobService;
 import android.content.Context;
 import android.os.AsyncTask;
 
-import com.xenonota.utils.OTAUtils;
-import com.xenonota.xml.OTADevice;
+import com.pornota.utils.OTAUtils;
+import com.pornota.xml.OTADevice;
 
 public class OTAService extends JobService implements CheckUpdateTask.UpdateCheckerCallback {
 

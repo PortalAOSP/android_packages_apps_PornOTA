@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xenonota;
+package com.pornota;
 
 import android.Manifest;
 import android.app.NotificationChannel;
@@ -43,12 +43,12 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.Toast;
 
-import com.xenonota.adapters.ViewPagerAdapter;
-import com.xenonota.fragments.Fragment_Gapps;
-import com.xenonota.fragments.Fragment_OTA;
-import com.xenonota.fragments.Fragment_Settings;
-import com.xenonota.tasks.BootCompletedReceiver;
-import com.xenonota.xml.OTADevice;
+import com.pornota.adapters.ViewPagerAdapter;
+import com.pornota.fragments.Fragment_Gapps;
+import com.pornota.fragments.Fragment_OTA;
+import com.pornota.fragments.Fragment_Settings;
+import com.pornota.tasks.BootCompletedReceiver;
+import com.pornota.xml.OTADevice;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -234,7 +234,7 @@ public class MainActivity extends AppCompatActivity {
     public void initChannels(Context context) {
         NotificationManager notificationManager =
                 (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
-        NotificationChannel channel = new NotificationChannel("xenonota",
+        NotificationChannel channel = new NotificationChannel("pornota",
                 "Downloads",
                 NotificationManager.IMPORTANCE_DEFAULT);
         channel.setSound(null, null);

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018 XenonHD
+ * Copyright (C) 2018 PornAOSP
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *
- * Created by Devil7DK for XenonHD
+ * Created by Devil7DK for PornAOSP
  *
  * Parts of this code was took from the app "RnOpenGapps" - https://github.com/hjthjthjt/RnOpenGApps
  */
 
-package com.xenonota.fragments;
+package com.pornota.fragments;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -46,13 +46,13 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.xenonota.R;
-import com.xenonota.configs.AppConfig;
-import com.xenonota.configs.DeviceConfig;
-import com.xenonota.configs.GappsConfig;
-import com.xenonota.dialogs.Downloader;
-import com.xenonota.tasks.CheckGappsTask;
-import com.xenonota.dialogs.OpenFileDialog;
+import com.pornota.R;
+import com.pornota.configs.AppConfig;
+import com.pornota.configs.DeviceConfig;
+import com.pornota.configs.GappsConfig;
+import com.pornota.dialogs.Downloader;
+import com.pornota.tasks.CheckGappsTask;
+import com.pornota.dialogs.OpenFileDialog;
 
 import java.io.File;
 

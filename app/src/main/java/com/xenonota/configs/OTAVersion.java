@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.xenonota.configs;
+package com.pornota.configs;
 
 import android.content.Context;
 
-import com.xenonota.utils.OTAUtils;
+import com.pornota.utils.OTAUtils;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -45,7 +45,7 @@ public class OTAVersion {
 
     public static boolean checkServerVersion(String serverVersion, String serverBuildTime, Context context) {
         String localVersion = getFullLocalVersion(context);
-        String localBuildTime = OTAUtils.getProp("ro.xenonhd.timestamp");
+        String localBuildTime = OTAUtils.getProp("ro.paosp.timestamp");
         localVersion = extractVersionFrom(localVersion, context);
         serverVersion = extractVersionFrom(serverVersion, context);
 

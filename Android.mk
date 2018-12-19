@@ -6,7 +6,7 @@ ifneq ($(OTA_DIR),)
 endif
 
 LOCAL_MODULE_TAGS := optional
-LOCAL_PACKAGE_NAME := XenonOTA
+LOCAL_PACKAGE_NAME := PornOTA
 LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := true
 
