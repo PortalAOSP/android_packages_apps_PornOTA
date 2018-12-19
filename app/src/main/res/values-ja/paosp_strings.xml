@@ -17,7 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App -->
     <string name="app_name">PornOTA</string>
-    <string name="app_title">XenonHDの更新</string>
+    <string name="app_title">PornAOSPの更新</string>
     <!-- Dialogs -->
     <string name="cancel">キャンセル</string>
     <string name="close">閉じる</string>
@@ -41,9 +41,9 @@
     <string name="title_rom">ROM</string>
     <string name="title_settings">設定</string>
     <!-- Notifications -->
-    <string name="notification_title">XenonHDの更新</string>
-    <string name="xenonota_channel">XenonOTAの通知</string>
-    <string name="xenonota_channel_description">新しいXenonHDアップデートの通知</string>
+    <string name="notification_title">PornAOSPの更新</string>
+    <string name="pornota_channel">XenonOTAの通知</string>
+    <string name="pornota_channel_description">新しいPornAOSPアップデートの通知</string>
     <!-- ROM -->
     <string name="changelog_title">更新履歴</string>
     <string name="check_update_title">更新の確認</string>
@@ -53,7 +53,7 @@
     <string name="flash_clean">クリーンフラッシュ</string>
     <string name="my_device">端末</string>
     <string name="no_update_available">利用可能な更新はありません</string>
-    <string name="xenonhd_version">PornAOSP %s</string>
+    <string name="paosp_version">PornAOSP %s</string>
     <!-- Settings -->
     <string name="disabled">無効</string>
     <string name="magisk_stable">安定版のみ</string>

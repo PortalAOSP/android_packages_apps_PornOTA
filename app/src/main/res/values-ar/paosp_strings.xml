@@ -59,8 +59,8 @@
     <!-- Notifications -->
     <string name="notification_message">هناك إصدار جديد متوفر!</string>
     <string name="notification_title">تحديث PornAOSP</string>
-    <string name="xenonota_channel">اشعارات PornOTA</string>
-    <string name="xenonota_channel_description">إشعارات حول التحديثات الجديدة لـ PornAOSP</string>
+    <string name="pornota_channel">اشعارات PornOTA</string>
+    <string name="pornota_channel_description">إشعارات حول التحديثات الجديدة لـ PornAOSP</string>
     <!-- ROM -->
     <string name="changelog_title">سجل التغيرات</string>
     <string name="check_update_title">تحقق من وجود تحديثات</string>
@@ -73,7 +73,7 @@
     <string name="my_device">الجهاز</string>
     <string name="no_update_available">لا توجد تحديثات متوفرة</string>
     <string name="update_available1">تحديث متوفر!\n%s (%s)</string>
-    <string name="xenonhd_version">PornAOSP %s</string>
+    <string name="paosp_version">PornAOSP %s</string>
     <!-- Settings -->
     <string name="disabled">غير مفعل</string>
     <string name="rom_latest">الأحدث (الرسمي و التجريبي)</string>

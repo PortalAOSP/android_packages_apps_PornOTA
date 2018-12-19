@@ -17,7 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App -->
     <string name="app_name">Xenon更新</string>
-    <string name="app_title">XenonHD更新</string>
+    <string name="app_title">PornAOSP更新</string>
     <!-- Dialogs -->
     <string name="cancel">取消</string>
     <string name="close">关闭</string>
@@ -58,8 +58,8 @@
     <!-- Notifications -->
     <string name="notification_message">有新版本！</string>
     <string name="notification_title">PornAOSP 更新</string>
-    <string name="xenonota_channel">PornOTA 通知</string>
-    <string name="xenonota_channel_description">有关新 PornAOSP 更新的通知</string>
+    <string name="pornota_channel">PornOTA 通知</string>
+    <string name="pornota_channel_description">有关新 PornAOSP 更新的通知</string>
     <!-- ROM -->
     <string name="changelog_title">更新日志</string>
     <string name="check_update_title">检查更新</string>
@@ -71,7 +71,7 @@
     <string name="flash_magisk">刷入 Magisk</string>
     <string name="my_device">设备</string>
     <string name="no_update_available">暂无更新</string>
-    <string name="xenonhd_version">PornAOSP %s</string>
+    <string name="paosp_version">PornAOSP %s</string>
     <!-- Settings -->
     <string name="disabled">已禁用</string>
     <string name="rom_latest">最新 (官方版和试验版)</string>

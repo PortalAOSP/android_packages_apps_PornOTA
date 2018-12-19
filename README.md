@@ -42,8 +42,8 @@ How to build
     `<project path="packages/apps/PornOTA" name="TeamHorizon/android_packages_apps_XenonOTA" revision="p" />`
   * Include this app in the build process  
     `PRODUCT_PACKAGES += PornOTA`
-  * [Generate ota_conf](https://raw.githubusercontent.com/TeamHorizon/vendor_xenonhd/p/config/ota.mk)
-  * [Generate ota_device.xml](https://github.com/TeamHorizon/vendor_xenonhd/blob/p/build/tools/ota) (started by [build/tasks/bacon.mk](https://github.com/TeamHorizon/vendor_xenonhd/blob/p/build/tasks/bacon.mk))
+  * [Generate ota_conf](https://raw.githubusercontent.com/TeamHorizon/vendor_paosp/p/config/ota.mk)
+  * [Generate ota_device.xml](https://github.com/TeamHorizon/vendor_paosp/blob/p/build/tools/ota) (started by [build/tasks/bacon.mk](https://github.com/TeamHorizon/vendor_paosp/blob/p/build/tasks/bacon.mk))
 * As a standalone app
   * With Android.mk: `. build/envsetup.sh && breakfast device && make PornOTA`
   * With Android Studio: Import this repo to your Android Studio and build it from there

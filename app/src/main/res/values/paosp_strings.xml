@@ -71,8 +71,8 @@
     <!-- Notifications -->
     <string name="notification_message">New version is available!</string>
     <string name="notification_title">PornAOSP update</string>
-    <string name="xenonota_channel">PornOTA notifications</string>
-    <string name="xenonota_channel_description">Notifications about new PornAOSP updates</string>
+    <string name="pornota_channel">PornOTA notifications</string>
+    <string name="pornota_channel_description">Notifications about new PornAOSP updates</string>
 
     <!-- ROM -->
     <string name="changelog_title">Changelog</string>
@@ -86,7 +86,7 @@
     <string name="my_device">Device</string>
     <string name="no_update_available">No updates available</string>
     <string name="update_available1">Update available!\n%s (%s)</string>
-    <string name="xenonhd_version">PornAOSP %s</string>
+    <string name="paosp_version">PornAOSP %s</string>
     <string name="device_name">%1$s (%2$s)</string>
 
     <!-- Settings -->

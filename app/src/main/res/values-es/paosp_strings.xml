@@ -28,7 +28,7 @@
     <!-- Navigation -->
     <string name="title_rom">ROM</string>
     <!-- Notifications -->
-    <string name="xenonota_channel_description">Notificaciones sobre nuevas actualizaciones de PornAOSP</string>
+    <string name="pornota_channel_description">Notificaciones sobre nuevas actualizaciones de PornAOSP</string>
     <!-- ROM -->
     <string name="changelog_title">Lista de cambios</string>
     <string name="check_update_title">Buscar actualizaciones</string>

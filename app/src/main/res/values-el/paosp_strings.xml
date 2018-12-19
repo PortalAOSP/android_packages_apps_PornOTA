@@ -58,8 +58,8 @@
     <!-- Notifications -->
     <string name="notification_message">Νέα έκδοση είναι διαθέσιμη!</string>
     <string name="notification_title">Ενημερώσεις λειτουργικού PornAOSP</string>
-    <string name="xenonota_channel">Ειδοποιήσεις για ενημερώσεις PornAOSP</string>
-    <string name="xenonota_channel_description">Ειδοποιήσεις για νέες ενημερώσεις PornAOSP</string>
+    <string name="pornota_channel">Ειδοποιήσεις για ενημερώσεις PornAOSP</string>
+    <string name="pornota_channel_description">Ειδοποιήσεις για νέες ενημερώσεις PornAOSP</string>
     <!-- ROM -->
     <string name="changelog_title">Κατάλογος αλλαγών</string>
     <string name="check_update_title">Έλεγχος για ενημερώσεις</string>
@@ -71,7 +71,7 @@
     <string name="flash_magisk">Εγκατάσταση Magisk</string>
     <string name="my_device">Συσκευή</string>
     <string name="no_update_available">Δεν υπάρχουν διαθέσιμες ενημερώσεις</string>
-    <string name="xenonhd_version">PornAOSP %s</string>
+    <string name="paosp_version">PornAOSP %s</string>
     <!-- Settings -->
     <string name="disabled">Απενεργοποιημένο</string>
     <string name="rom_latest">Τελευταίες (επίσημη &amp; πειραματική)</string>

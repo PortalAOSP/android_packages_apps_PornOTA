@@ -397,7 +397,7 @@ public class Fragment_OTA extends Fragment implements WaitDialogFragment.OTADial
 
     private void getROMDetails(){
         currentVersion.setText(OTAUtils.getProp("ro.paosp.version"));
-        rom_version.setText(getString(R.string.xenonhd_version, Build.VERSION.RELEASE));
+        rom_version.setText(getString(R.string.paosp_version, Build.VERSION.RELEASE));
         build_type.setText(OTAUtils.getProp("ro.paosp.type"));
         device_name.setText(getString(R.string.device_name, OTAUtils.getProp("ro.product.model"), OTAUtils.getProp("ro.paosp.device")));
         String maintainer_name=OTAUtils.getProp("ro.paosp.maintainer");

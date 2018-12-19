@@ -44,8 +44,8 @@
     <!-- Notifications -->
     <string name="notification_message">Je k dispozici nová verze!</string>
     <string name="notification_title">Aktualizace PornAOSP</string>
-    <string name="xenonota_channel">Upozornění PornOTA</string>
-    <string name="xenonota_channel_description">Upozornění na nové aktualizace PornAOSP</string>
+    <string name="pornota_channel">Upozornění PornOTA</string>
+    <string name="pornota_channel_description">Upozornění na nové aktualizace PornAOSP</string>
     <!-- ROM -->
     <string name="changelog_title">Protokol změn</string>
     <string name="check_update_title">Zkontrolovat aktualizace</string>
@@ -53,7 +53,7 @@
     <string name="download">Stáhnout</string>
     <string name="my_device">Zařízení</string>
     <string name="no_update_available">Nejsou k dispozici žádné aktualizace</string>
-    <string name="xenonhd_version">PornAOSP %s</string>
+    <string name="paosp_version">PornAOSP %s</string>
     <!-- Settings -->
     <string name="disabled">Vypnuto</string>
     <string name="hour">Každou hodinu</string>

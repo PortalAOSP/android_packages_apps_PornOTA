@@ -28,8 +28,8 @@
     <!-- Navigation -->
     <string name="title_rom">ROM</string>
     <!-- Notifications -->
-    <string name="xenonota_channel">Upozornenia PornOTA</string>
-    <string name="xenonota_channel_description">Upozornenia na nové aktualizácie PornAOSP</string>
+    <string name="pornota_channel">Upozornenia PornOTA</string>
+    <string name="pornota_channel_description">Upozornenia na nové aktualizácie PornAOSP</string>
     <!-- ROM -->
     <string name="changelog_title">Prehľad zmien</string>
     <string name="check_update_title">Skontrolovať aktualizácie</string>

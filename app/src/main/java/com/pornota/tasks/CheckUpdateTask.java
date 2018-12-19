@@ -182,16 +182,16 @@ public class CheckUpdateTask extends AsyncTask<Void, Void, OTADevice> {
             NotificationManager notificationManager =
                     (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
             int notifyID = 1;
-            String id = "xenonota_channel";
-            CharSequence name = context.getString(R.string.xenonota_channel);
-            String description = context.getString(R.string.xenonota_channel_description);
+            String id = "pornota_channel";
+            CharSequence name = context.getString(R.string.pornota_channel);
+            String description = context.getString(R.string.pornota_channel_description);
             int importance = NotificationManager.IMPORTANCE_LOW;
             NotificationChannel mChannel = new NotificationChannel(id, name, importance);
             mChannel.setDescription(description);
             notificationManager.createNotificationChannel(mChannel);
 
             NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context.getApplicationContext(), "PornOTA")
-                    .setSmallIcon(R.drawable.ic_notification_xenonota)
+                    .setSmallIcon(R.drawable.ic_notification_pornota)
                     .setContentTitle(context.getString(R.string.notification_title))
                     .setContentText(context.getString(R.string.notification_message))
                     .setOnlyAlertOnce(true)
